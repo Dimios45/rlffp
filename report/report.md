@@ -87,7 +87,7 @@ The reality is that sim-to-real transfer will always be hard because simulation 
 
 Until it starts chasing shadows again.
 
-![PPO on Hardware ](assets/ppo_sim2real.mp4)
+![PPO on Hardware ](assets/ppo_sim2real.gif)
 
 # Flow Policy Optimization (FPO)
 
@@ -105,7 +105,7 @@ r(\theta) = \frac{\pi_\theta(a_t \mid o_t)}{\pi_{\theta_{\text{old}}}(a_t \mid o
 
 ---
 
-**FPO ratio:**\n\nIn Flow Matching PPO (FPO), the ratio is estimated via flow-matching losses:
+**FPO ratio:**In Flow Matching PPO (FPO), the ratio is estimated via flow-matching losses:
 ```math
 \hat{r}_{\text{FPO}}(\theta) = \exp\left(
     \hat{L}_{\text{CFM}, \theta_{\text{old}}}(a_t; o_t)
