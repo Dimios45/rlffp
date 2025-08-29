@@ -18,6 +18,7 @@ Our comprehensive report covers:
 - **Sim-to-Real Transfer Challenges**: An in-depth analysis of the difficulties in transferring policies from simulation to real-world hardware, including camera alignment, visual perception gaps, and hardware calibration issues.
 - **Flow Policy Optimization (FPO)**: An innovative approach that combines flow-based generative models with policy gradient methods, enabling more expressive policy representations.
 - **Implementation Details**: Our practical implementation of FPO for the PickCube task with the SO100 robotic arm.
+[PPO and FPO Implementation Deployed on SO100 arm](https://github.com/vruga/lerobot-sim2real)
 - **Performance Comparison**: Evaluation results comparing FPO and PPO approaches in both simulation and real-world settings.
 
 For detailed information, please refer to the full documents:

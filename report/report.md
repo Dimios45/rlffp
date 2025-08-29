@@ -247,7 +247,7 @@ The code reveals several practical difficulties in applying FPO to robotics:
 - **Engineering Complexity**: The implementation requires careful tuning of multiple stability mechanisms, making it considerably more complex than standard policy gradient methods.
 
 This implementation demonstrates that while FPO can work for robotic manipulation, it requires substantial engineering effort to maintain training stability, suggesting the method may not yet be as robust as traditional approaches for continuous control tasks.
-
+[code](https://github.com/vruga/lerobot-sim2real)
 ![FPO on Hardware ](assets/fpo_sim2real.gif)
 
 ## FPO vs PPO Results
