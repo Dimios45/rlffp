@@ -2,6 +2,13 @@
 
 A hands-on project combining simulation and real-world control of the SO100 robotic arm using vision, language, and reinforcement learning.
 
+# File Strcuture
+rlffp/
+├── README.md
+└── report/
+    ├── assets/
+    ├── report.md
+    └── literature_review.md
 
 
 ## Contents
@@ -24,3 +31,4 @@ Our comprehensive report covers:
 For detailed information, please refer to the full documents:
 - [Literature Review](report/literature_review.md)
 - [Main Report](report/report.md)
+- [SRA-VJTI Blog Post : From PPO to FPO- Flow Models for Better Policies](https://blog.sravjti.in/2025/08/14/flow-models-for-better-policies.html)
